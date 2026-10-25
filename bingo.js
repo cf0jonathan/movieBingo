@@ -8,7 +8,7 @@ const CHRISTMAS_MOVIE_TERMS = [
     "Candy canes",
     "Up for big promotion",
     "Mistletoe",
-    "Main character has a struggleing business",
+    "Main character has a struggling business",
     "Enemies to lovers",
     "Small town",
     "Christmas festival",
@@ -20,18 +20,18 @@ const CHRISTMAS_MOVIE_TERMS = [
     "Christmas Parade",
     "Flannel",
     "Snowman",
-    "Santa Clause",
+    "Santa Claus",
     "Tree Lighting",
     "Ice Skating",
     "Christmas Market",
     "Santa's Sleigh",
-    "Christmas Carolling",
+    "Christmas Caroling",
     "Family Traditions",
     "Home from the big city",
     "Snowball Fight",
-    "Ex Boy Friend shows up",
+    "Ex-boyfriend shows up",
     "First Act Breakup",
-    "Advice from and older relative"
+    "Advice from an older relative"
 ];
 
 // Fisher-Yates shuffle algorithm to randomize an array

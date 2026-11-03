@@ -32,11 +32,16 @@ h1 {
     border-radius: 6px;
     cursor: pointer;
     margin-bottom: 12px;
-    transition: opacity 0.2s;
+    transition: all .5s, transform .2s;
+}
+
+
+#new-card-btn:active {
+    transform: scale(0.9);
 }
 
 #new-card-btn:hover {
-    opacity: 0.9;
+    transform: scale(1.1);
 }
 
 #bingo-grid {
@@ -47,14 +52,14 @@ h1 {
     /* Fits within screen width AND screen height so no scrolling is needed */
     width: min(95vw, calc(100dvh - 140px));
     height: min(95vw, calc(100dvh - 140px));
-    max-width: 520px;
-    max-height: 520px;
+    max-width: 5200px;
+    max-height: 5200px;
     aspect-ratio: 1;
 }
 
 .bingo-cell {
     background-color: #00910a;
-    border: 1px solid #3c3c46;
+    border: 2px solid #1b5e20;
     border-radius: 6px;
     display: flex;
     align-items: center;
@@ -69,21 +74,21 @@ h1 {
     overflow: hidden;
     cursor: pointer;
     user-select: none;
-    transition: background-color 0.15s, transform 0.1s;
+    transition: all .5s, transform .2s;
 }
 
 .bingo-cell:hover {
-    border-color: #5d5d6c;
+    transform: scale(1.05);
 }
 
 .bingo-cell:active {
-    transform: scale(0.96);
+    transform: scale(0.95);
 }
 
 /* Marked / Daubed cell style */
 .bingo-cell.marked {
     background-color: #1b5e20;
-    border-color: #4caf50;
+    border-color: #00910a;
     color: #e8f5e9;
     text-decoration: line-through;
 }
